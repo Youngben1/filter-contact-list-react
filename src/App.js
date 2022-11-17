@@ -32,7 +32,7 @@ function App() {
             {/* onChange for search */}
             <Form.Control
               onChange={(e) => setSearch(e.target.value)}
-              placeholder='Search contacts'
+              placeholder='Search contacts by first name'
             />
           </InputGroup>
         </Form>
